@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+body { background-color: #FAFBFC; }
+
+.table-stylish {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 20px 60px rgba(0,0,0,.15);
+}
+
+.table-stylish tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-stylish tbody tr:nth-child(even) td {
+  background-color: #F8F8FA;
+}
+
+.table-stylish th,
+.table-stylish td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table-stylish td {
+  background-color: #fff;
+}
+
+.table-stylish th {
+  background-color: #ECF0F6;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #26436F;
+  text-align: center;
+}
+
+.table-stylish a { 
+  color: #000;  
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.table-stylish .delete {
+  color: red;
+}
